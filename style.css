@@ -673,12 +673,11 @@ section{
   height: 100vh;
   background-attachment: fixed;
   background-repeat: no-repeat;
-  background-size: 100% auto;
+  background-size: cover;
   place-items: center;
   align-items: center;
   display: grid;
   scroll-behavior: smooth;
-  overflow-y: scroll;
 }
 @media (max-width: 767px) {
   section {
